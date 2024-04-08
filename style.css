@@ -1,0 +1,180 @@
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #3030302f;
+    height: 430px;
+    width: 360px;
+    padding: 20px 0px 0px 25px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 20px;
+}
+h1{
+    font-family: poppins;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    justify-content: center;
+    width: 320px;
+}
+.input-box{
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    width: 310px;
+    height: 33px;
+    border-radius: 5px;
+    gap: 5px;
+}
+#email{
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: poppins;
+    font-size: 10px;
+    outline: none;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    width: 60px;
+    background-color: transparent;
+    height: 100%;
+    font-family: poppins;
+    font-size: 10px;
+    color: #303030;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#telefone{
+    height: 100%;
+    width: 76%;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: none;
+    border-top: none;
+    border-left: 1px solid black;
+    font-family: poppins;
+    padding-left: 7px;
+    font-size: 10px;
+    color: #434449;
+    outline: none;
+}
+.icon{
+    width: 20px;
+}
+label{
+    display: block;
+    font-family: poppins;
+    font-size: 11px;
+    color: #303030;
+    font-weight: 600;
+}
+.forca-senha{
+    position: relative;
+    margin-bottom: 15px;
+    background-color: transparent;
+    flex-direction: row;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 310px;
+    height: 33px;
+    border-radius: 5px;
+    gap: 5px;
+}
+.forca-senha input{
+    height: 100%;
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    font-family: poppins;
+    font-size: 10px;
+    outline: none;
+}
+.toggle-password{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 10px;
+    color: black;
+    background-color: #ffffff;
+}
+.forca-senha-msg{
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-family: poppins;
+    font-weight: 100;
+}
+.forca-senha-vermelho{
+    color: #f75357;
+}
+.forca-senha-amarelo{
+    color: #ED881F;
+}
+.forca-senha-verde{
+    color: #7BBD90;
+}
+.termos{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.termos p{
+    font-family: poppins;
+    font-size: 13px;
+    color: #303030;
+    font-weight: 100;
+}
+.termos p > a{
+    color: black;
+    opacity: 90%;
+    text-decoration: underline;
+}
+.entrar{
+    width: 310px;
+    height: 33px;
+    border: none;
+    border-radius: 5px;
+    font-family: poppins;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: gray;
+    color: #ffffff;
+}
+.entrar:hover{
+    background-color: black;
+}
+.senha{
+    font-family: poppins;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+}
+.senha:hover{
+    opacity: 80%;
+}

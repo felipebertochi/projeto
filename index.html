@@ -1,0 +1,35 @@
+<section>
+    <link rel="stylesheet" href="style.css">
+    <h1>Crie sua conta!</h1>
+
+    <form id="cadastroConta">
+        <label for="email">Email</label>
+        <div class="input-box">
+            <img class="icon" src="/images/1250663.png" alt="">
+            <input type="text" id="email" name="Email" placeholder="Email">
+        </div>
+        <label for="numero">Telefone</label>
+        <div class="input-box">
+            <select id="pais" onchange="atualizarCodigoPostal()">
+                <div class="ls-custom">
+                    <option value="brasil">Brasil (+55)</option>
+                    <option value="eua">EUA (+1)</option>
+                </div>
+            </select>
+            <input type="text" id="telefone" name="telefone" placeholder="00 00000 0000">
+        </div>
+        <label for="senha">Senha</label>
+        <div id="divSenha" class="forca-senha">
+            <img class="icon" src="/images/5527004.png" alt="">
+            <input type="password" id="senha" placeholder="Senha" name="senha">
+            <span id="togglePassword" class="toggle-password" onclick="toggleSenhaVisibility()">Mostrar Senha</span>
+        </div>
+        <div id="forcaSenha" class="forca-senha-msg"></div>
+        <div class="termos">
+            <input type="checkbox">
+            <p>Eu concordo com os <a href="#"> Termos de uso e Privacidade</a></p>
+        </div>
+        <button class="entrar" type="submit">Entrar</button>
+    </form>
+</section>
+<script src="app.js"></script>
